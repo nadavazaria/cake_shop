@@ -1,11 +1,11 @@
-const cakes = [
+products = [
     {
-      '_id': '1',
+      '_id':'1',
       'name': 'Airpods Wireless Bluetooth Headphones',
       'image': '/images/decocake_1.jpg',
       'description':
-        'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
-      'brand': 'Apple',
+      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+      'brand': 'muuuushlemet',
       'category': 'decorated cakes',
       'price': 89.99,
       'countInStock': 10,
@@ -13,12 +13,12 @@ const cakes = [
       'numReviews': 12,
     },
     {
-      '_id': '2',
+      '_id':'2',
       'name': 'iPhone 11 Pro 256GB Memory',
       'image': '/images/decocake_2.jpg',
       'description':
-        'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
-      'brand': 'Apple',
+      'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
+      'brand': 'muuuushlemet',
       'category': 'decorated cakes',
       'price': 599.99,
       'countInStock': 7,
@@ -30,8 +30,8 @@ const cakes = [
       'name': 'Cannon EOS 80D DSLR Camera',
       'image': '/images/decocake_3.jpg',
       'description':
-        'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
-      'brand': 'Cannon',
+      'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
+      'brand': 'muuuushlemet',
       'category': 'decorated cakes',
       'price': 929.99,
       'countInStock': 5,
@@ -43,8 +43,8 @@ const cakes = [
       'name': 'Sony Playstation 4 Pro White Version',
       'image': '/images/decocake_4.jpg',
       'description':
-        'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
-      'brand': 'Sony',
+      'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
+      'brand': 'muuuushlemet',
       'category': 'decorated cakes',
       'price': 399.99,
       'countInStock': 11,
@@ -56,8 +56,8 @@ const cakes = [
       'name': 'Logitech G-Series Gaming Mouse',
       'image': '/images/decocake_5.jpg',
       'description':
-        'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
-      'brand': 'Logitech',
+      'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
+      'brand': 'muuuushlemet',
       'category': 'decorated cakes',
       'price': 49.99,
       'countInStock': 7,
@@ -69,8 +69,8 @@ const cakes = [
       'name': 'Amazon Echo Dot 3rd Generation',
       'image': '/images/decocake_6.jpg',
       'description':
-        'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
-      'brand': 'Amazon',
+      'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
+      'brand': 'muuuushlemet',
       'category': 'decorated cakes',
       'price': 29.99,
       'countInStock': 0,
@@ -83,8 +83,8 @@ const cakes = [
       'name': 'Amazon Echo Dot 3rd Generation',
       'image': '/images/decocake_7.jpg',
       'description':
-        'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
-      'brand': 'Amazon',
+      'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
+      'brand': 'muuuushlemet',
       'category': 'decorated cakes',
       'price': 29.99,
       'countInStock': 0,
@@ -96,8 +96,8 @@ const cakes = [
       'name': 'Amazon Echo Dot 3rd Generation',
       'image': '/images/gardencake_1.jpg',
       'description':
-        'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
-      'brand': 'Amazon',
+      'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
+      'brand': 'muuuushlemet',
       'category': 'garden cakes',
       'price': 29.99,
       'countInStock': 0,
@@ -109,8 +109,8 @@ const cakes = [
       'name': 'Amazon Echo Dot 3rd Generation',
       'image': '/images/gardencake_2.jpg',
       'description':
-        'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
-      'brand': 'Amazon',
+      'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
+      'brand': 'muuuushlemet',
       'category': 'garden cakes',
       'price': 29.99,
       'countInStock': 0,
@@ -122,8 +122,8 @@ const cakes = [
       'name': 'Amazon Echo Dot 3rd Generation',
       'image': '/images/gardencake_3.jpg',
       'description':
-        'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
-      'brand': 'Amazon',
+      'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
+      'brand': 'muuuushlemet',
       'category': 'garden cakes',
       'price': 29.99,
       'countInStock': 0,
@@ -135,8 +135,8 @@ const cakes = [
       'name': 'Amazon Echo Dot 3rd Generation',
       'image': '/images/gardencake_4.jpg',
       'description':
-        'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
-      'brand': 'Amazon',
+      'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
+      'brand': 'muuuushlemet',
       'category': 'garden cakes',
       'price': 29.99,
       'countInStock': 0,
@@ -148,8 +148,8 @@ const cakes = [
       'name': 'Amazon Echo Dot 3rd Generation',
       'image': '/images/numbercake_1.jpg',
       'description':
-        'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
-      'brand': 'Amazon',
+      'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
+      'brand': 'muuuushlemet',
       'category': 'number cakes',
       'price': 29.99,
       'countInStock': 0,
@@ -161,8 +161,8 @@ const cakes = [
       'name': 'Amazon Echo Dot 3rd Generation',
       'image': '/images/numbercake_2.jpg',
       'description':
-        'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
-      'brand': 'Amazon',
+      'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
+      'brand': 'muuuushlemet',
       'category': 'number cakes',
       'price': 29.99,
       'countInStock': 0,
@@ -174,8 +174,8 @@ const cakes = [
       'name': 'Amazon Echo Dot 3rd Generation',
       'image': '/images/numbercake_3.jpg',
       'description':
-        'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
-      'brand': 'Amazon',
+      'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
+      'brand': 'muuuushlemet',
       'category': 'number cakes',
       'price': 29.99,
       'countInStock': 0,
@@ -185,4 +185,3 @@ const cakes = [
   ]
   
   
-  export default cakes

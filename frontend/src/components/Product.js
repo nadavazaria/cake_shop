@@ -4,27 +4,27 @@ import Rating from './Rating'
 import { Link } from 'react-router-dom'
 
 
-const Cake = ({cake}) => {
+const Product = ({product}) => {
   return (
     <Card className='my-3 p-3 rounded'>
-        <Link to={`/cake/${cake._id}`}>
-        <Card.Img src={cake.image} />
+        <Link to={`/product/${product._id}`}>
+        <Card.Img src={product.image} />
         </Link>
 
         <Card.Body>
-            <Link to={`/cake/${cake._id}`}>
+            <Link to={`/product/${product._id}`}>
             <Card.Title as='div'>
-                <strong>{cake.name}</strong>
+                <strong>{product.name}</strong>
             </Card.Title>
             </Link>
             <Card.Text as='div'>
                 <div className='my-2'>
-                <Rating value ={cake.rating} text={`${cake.numReviews} reviews`} color= {`#f8e825 in obj`}/>
+                <Rating value ={product.rating} text={`${product.numReviews} reviews`} color= {`#f8e825 in obj`}/>
                 </div>
             </Card.Text>
 
             <Card.Text as='h3'>
-                ₪{cake.price}
+                ₪{product.price}
             </Card.Text>
 
         </Card.Body>
@@ -33,4 +33,4 @@ const Cake = ({cake}) => {
   )
 }
 
-export default Cake
+export default Product
