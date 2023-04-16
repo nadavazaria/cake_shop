@@ -20,11 +20,11 @@ const CartScreen = () => {
   const productId = id;
   const location = useLocation();
   const qty = location.search ? Number(location.search.split("=")[1]) : 1;
-    const URL =  'http://127.0.0.1:8000'
+  const URL =  'http://127.0.0.1:8000'
   const dispatch = useDispatch();
   const cart = useSelector((state) => state.cart);
   const { cartItems, shippingAddress } = cart;
-  console.log("cartitems:",cartItems);
+  // console.log("cartitems:",cartItems);
 
   useEffect(() => {
     if (productId) {

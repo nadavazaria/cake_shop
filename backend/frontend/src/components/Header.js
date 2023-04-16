@@ -1,4 +1,6 @@
 import React from "react";
+import ReactDOM from 'react-dom';
+import { SocialIcon } from 'react-social-icons';
 import { useDispatch, useSelector } from "react-redux";
 import { Container, NavDropdown, Nav, Navbar } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
@@ -26,7 +28,20 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav"> 
             <SearchBox/>
-            <Nav className="mr-auto">
+            find us on social : 
+            
+            <SocialIcon url="https://www.facebook.com/profile.php?id=100063572619741&mibextid=ZbWKwL" bgColor="	#3b4c9b" style={{ marginLeft: '1rem' }}/>
+            
+            <SocialIcon url="https://www.tiktok.com/@moooosh_lemet" style={{ marginLeft: '1rem' }}
+/>
+            
+            <SocialIcon url="http://www.instagram.com/moooosh_lemet" style={{ marginLeft: '1rem' }} />
+
+
+            
+
+            <Nav className="ms-md-auto">
+
               <LinkContainer to="/cart">
                 <Nav.Link>
                   <i className="fas fa-shopping-cart"></i>your cart
